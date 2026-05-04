@@ -9,11 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val tv = TextView(this)
-        tv.text = "Yazı Tura Oyunu"
-        tv.textSize = 24f
 
-        setContentView(tv)
     }
 }
 ``
