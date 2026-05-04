@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="com.example.yazitura"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application
-        android:label="Yazi Tura">
+        android:label="Yazı Tura"
+        android:supportsRtl="true">
 
-        <activity android:name=".MainActivity">
+        <activity
+            android:name="com.example.yazitura.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -13,4 +15,5 @@
         </activity>
 
     </application>
+
 </manifest>
